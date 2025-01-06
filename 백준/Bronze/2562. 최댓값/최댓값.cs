@@ -18,7 +18,7 @@ namespace MaxMin
 			int max = numbers.Max();
 			
 			// 배열에서 최대값이 있는 인덱스 찾기
-            int maxIndex = Array.IndexOf(numbers, max) + 1;
+            		int maxIndex = Array.IndexOf(numbers, max) + 1;
 			
 			Console.WriteLine(max);
 			Console.WriteLine(maxIndex);
